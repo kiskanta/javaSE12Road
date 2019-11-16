@@ -28,7 +28,7 @@
 		<!-- <module>ch14_data_structures</module>
 		<module>ch15_algorithms</module> -->
 		<module>Ch19_RegularExpressions</module>
-		<!-- <module>ch23_component</module> -->
+		<module>ch23_component</module>
 	</modules>
 
 	<dependencies>
