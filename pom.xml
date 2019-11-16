@@ -21,13 +21,15 @@
 		<module>Ch05_ControllStatement</module>
 		<module>Ch06_Class_Objects</module>
 		<module>Ch07_CloserLook_class</module>
+		<module>Ch08_Packages</module>
+		
 		<module>Ch10_Exception_Handling</module>
 		<module>Ch11_MultiThread</module>
 		<module>Ch12_Concurrency</module>
-		<module>Ch08_Packages</module>
-		<!-- <module>ch14_data_structures</module>
-		<module>ch15_algorithms</module> -->
 		<module>Ch19_RegularExpressions</module>
+		
+		<module>Ch20_Data_Structures</module>
+		<module>Ch21_Algorithms</module>
 		<module>ch23_component</module>
 	</modules>
 
