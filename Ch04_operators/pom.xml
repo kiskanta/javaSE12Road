@@ -7,8 +7,8 @@
 	<artifactId>Ch04_opertors</artifactId>
 
 	<parent>
-		<groupId>com.ksh</groupId>
-		<artifactId>KSH-Java-Termite</artifactId>
+		<groupId>ksh.my</groupId>
+		<artifactId>ksh-java</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 </project>
