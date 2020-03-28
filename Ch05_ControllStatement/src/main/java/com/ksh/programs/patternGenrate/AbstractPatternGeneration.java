@@ -2,6 +2,37 @@ package com.ksh.programs.patternGenrate;
 
 public abstract class AbstractPatternGeneration implements PatternGeneration {
 
+	public void rightAngle(int a, char c){
+		for(int i=1; i<=a; i++) {
+			int j= 0;
+			for(j=a; j>i; j--) {// Loop for Space
+				System.out.print(" ");
+			}
+			for(int z= i; z>0; z--) {// Loop for #
+				System.out.print(c);
+			}
+			System.out.println();
+		}
+	}
+	
+	
+	
+	@Override
+	public void rightAngle2(int a, char c) {
+		int i=1, j;
+		do{
+			j=a;
+			do{
+				System.out.print(" ");
+			}while(j-->i);
+			j=i;
+           do{
+        	   System.out.print(c);
+            }while(j-->1);
+           System.out.println();
+        }while(++i<=a);         
+	}
+	
 	public void pyramidPattern() {
 		System.out.println("Pyramid genration pattern");
 		for (int i = 1; i <= 5; i++) {

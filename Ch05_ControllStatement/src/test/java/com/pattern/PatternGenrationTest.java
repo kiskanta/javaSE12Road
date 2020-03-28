@@ -36,4 +36,10 @@ public class PatternGenrationTest {
 		patternGeneration.pattern15(5);
 		patternGeneration.pattern16(5);
 	}
+	
+	@Test
+	public void triAngle() {
+		patternGeneration.rightAngle(6, '#');
+		patternGeneration.rightAngle2(6, '#');
+	}
 }

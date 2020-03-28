@@ -2,6 +2,34 @@ package com.ksh.programs.patternGenrate;
 
 public interface PatternGeneration {
 	/**
+	 *      #
+	 *     ##
+	 *    ###
+	 *   ####
+	 *  #####
+	 * ######               
+	 * @param a number of rows in shape
+	 * @param c something like #
+	 */
+	public void rightAngle(int a, char c);
+	
+	
+	
+	
+	/**
+	 * Print Right angle by using While Loop.
+	 *      #
+	 *     ##
+	 *    ###
+	 *   ####
+	 *  #####
+	 * ######               
+	 * @param a number of rows in shape
+	 * @param c something like #
+	 */
+	public void rightAngle2(int a, char c);
+	
+	/**
 	 * 1
 	 * 12
 	 * 123
@@ -126,4 +154,5 @@ public interface PatternGeneration {
 	public void pattern15(int number);
 	
 	public void pattern16(int number);
+	
 }
