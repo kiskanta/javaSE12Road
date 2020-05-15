@@ -17,7 +17,7 @@
 
 	<modules>
 		<module>Ch03_dataType_variable_arrays</module>
-		<module>Ch04_opertors</module>
+		<module>Ch04_operators</module>
 		<module>Ch05_ControllStatement</module>
 		<module>Ch06_Class_Objects</module>
 		<module>Ch07_CloserLook_class</module>

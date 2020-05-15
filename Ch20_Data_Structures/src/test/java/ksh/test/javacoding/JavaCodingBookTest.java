@@ -17,15 +17,16 @@ public class JavaCodingBookTest {
 	            + "people there to support you. ";
 	    final String TEXT_CP = TEXT + "😍 I love 💕 you Ӝ so much 💕 😍 🎼🎼🎼!";
 		var result = dupCount.duplicateCount1("hihihihi$");
-		var result2 = dupCount.duplicateCount2(null);
+		var result2 = dupCount.duplicateCount2(TEXT_CP);
 		var result3 = dupCount.duplicateCount3(TEXT_CP);
+		var result4 = dupCount.duplicateCount4(TEXT_CP);
 		
-		var result4 = dupCount.duplicateCharacterVCP(TEXT_CP);
+		var result5 = dupCount.duplicateCharacterVCP(TEXT_CP);
 		System.out.println(result);
 		System.out.println(result2);
 		System.out.println(result3);
-		
 		System.out.println(result4);
+		System.out.println(result5);
 		
 		displayExecutionTime(startTime);
 		

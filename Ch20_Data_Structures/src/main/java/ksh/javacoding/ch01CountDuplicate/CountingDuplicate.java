@@ -28,7 +28,26 @@ public class CountingDuplicate {
 		return coutResult;
 	}
 	
-	public Map<Character, Integer> duplicateCount2(String str){
+	public Map<String, Integer> duplicateCount2(String str){
+		if(str== null) {
+			throw new IllegalArgumentException("Given String is Null or Empty");
+		}
+		var coutResult = new HashMap<String, Integer>();
+		
+		for(int i=0; i< str.length(); i++) {
+			int cp = str.codePointAt(i);
+			String ch = String.valueOf(Character.toChars(cp));
+			
+			if(Character.charCount(cp) == 2) {
+				i++;
+			}
+			coutResult.compute(ch, (k, v) -> (v== null) ?1 : ++v);
+		}
+		
+		return coutResult;
+	}
+	
+	public Map<Character, Integer> duplicateCount3(String str){
 		if(str == null || str.isBlank()) {
 			return Collections.emptyMap();
 		}
@@ -51,12 +70,13 @@ public class CountingDuplicate {
 	 * @param str
 	 * @return
 	 */
-	public Map<Character, Long> duplicateCount3(String str){
+	public Map<Character, Long> duplicateCount4(String str){
 		if(str == null || str.isBlank()) {
 			return Collections.emptyMap();
 		}
 		
-		var countMap = str.chars().mapToObj(c-> (char) c)
+		var countMap = str.chars()	// Will handle only ASIC character. 
+				.mapToObj(c-> (char) c)
 		.collect(Collectors.groupingBy(c -> c, Collectors.counting()));
 		
 		return countMap;
@@ -72,8 +92,9 @@ public class CountingDuplicate {
 			return Collections.emptyMap();
 		}
 		
-		var dupCountMap = str.codePoints()	// 
-				.mapToObj(c -> String.valueOf(Character.toChars(c))).collect(Collectors.groupingBy(c -> c, Collectors.counting())); 
+		var dupCountMap = str.codePoints()	// To handle UniCode character. 
+				.mapToObj(c -> String.valueOf(Character.toChars(c)))	// 
+				.collect(Collectors.groupingBy(c -> c, Collectors.counting())); 
 		
 		return dupCountMap;
 	}

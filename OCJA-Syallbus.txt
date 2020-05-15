@@ -1,0 +1,121 @@
+1ZO-808 - Java 8 Certification (OCJA)
+1ZO-809 - Java 8 Certification (OCJP)
+
+1ZO-815 - Java 11 Certification (OCJA)
+1ZO-816 - Java 11 Certification (OCJP)
+
+Exam Number : 	1Z0-815
+Format		:  	Multipl choice
+Duration	: 	180 Minutes
+Number of questions :	80
+Passing Score: 63%
+
+Unit 1 : Understanding Java Technology and environment 
+========================================================
+Describe Java Technology and the Java development environment
+Identify key features of the Java language
+
+
+Unit 2 : Creating a Simple Java Program
+========================================================
+Create an executable Java program with a main class
+Compile and run a Java program from the command line
+Create and import packages
+
+
+Unit 3 : Working With Java Primitive Data Types and String APIs
+========================================================
+Declare and initialize variables (including casting and promoting primitive data types)
+Identify the scope of variables
+Use local variable type inference (LVTI)
+Create and manipulate Strings
+Manipulate data using the StringBuilder class and its methods
+
+Unit 4: Using Operators and Decision Constructs
+========================================================
+Use Java operators including the use of parentheses to override operator precedence
+Use Java control statements including if, if/else, switch
+Create and use do/while, while, for and for each loops, including nested loops, use break and continue statements
+
+Unit 5: Working with Java Arrays
+========================================================
+Declare, instantiate, initialize and use a one-dimensional array
+Declare, instantiate, initialize and use a two-dimensional array
+
+Unit 6: Describing and Using Objects and Classes
+========================================================
+Declare and instantiate Java objects, and explain objects' lifecycles (including creation, dereferencing by reassignment, and garbage collection)
+Define the structure of a Java class
+Read or write to object fields
+
+Unit 7: Creating and Using Methods
+========================================================
+Create methods and constructors with arguments and return values
+Create and invoke overloaded methods
+Apply the static keyword to methods and fields
+
+Unit 8: Applying Encapsulation
+========================================================
+Apply access modifiers
+Apply encapsulation principles to a class
+
+Unit 9: Reusing Implementations Through Inheritance
+========================================================
+Create and use subclasses and superclasses
+Create and extend abstract classes
+Enable polymorphism by overriding methods
+Utilize polymorphism to cast and call methods, differentiating object type versus reference type
+Distinguish overloading, overriding, and hiding
+
+Unit 10: Programming Abstractly Through Interfaces
+========================================================
+Create and implement interfaces
+Distinguish class inheritance from interface inheritance including abstract classes
+Declare and use List and ArrayList instances (Genrics)
+Understanding Lambda Expressions
+
+Unit 11: Handling Exceptions
+========================================================
+Describe the advantages of Exception handling and differentiate among checked, unchecked exceptions, and Errors
+Create try-catch blocks and determine how exceptions alter program flow
+Create and invoke a method that throws an exception
+
+Unit 12: Understanding Modules
+========================================================
+Describe the Modular JDK
+Declare modules and enable access between modules
+Describe how a modular project is compiled and run
+
+======================================================================
+4. Types of Variables
+4B. Java 10: Local Variables type Interence(LVTI)
+5. Main Method and command Line Arguments
+6. Using Operators
+7. Using Decision Constructs and Loops (Flow-control)
+8. Declarations and Access Modifiers
+9. OOP's
+10. Constructors
+11. Exceptions
+12. String StringBuffer and StringBuilder
+13. Wrapper Classes, Auto Boxing and Auto Unboxing
+14. Collections and ArrayList
+15. Lambda Expressions
+16. Predicate
+17. Date and Time API (Joda - Time API)
+18. Garbage Collections
+19. Understanding Modules
+20.  Important Usecases
+
+
+
+Referce:
+https://www.youtube.com/user/durgasoftware/search?query=1Z0+-+808
+
+MultiThread - https://www.youtube.com/watch?v=Hysb7hXp8B0&list=PLd3UqWTnYXOlHj_fVVjUIVHjD5uEy2kk4
+
+OracleCertificate - https://education.oracle.com/certification#cc-b2c-prod-training
+
+Documentation - https://docs.oracle.com/en/java/javase/
+
+1zo-817- https://education.oracle.com/products/trackp_817.
+Modularity - https://education.oracle.com/java-se-exploiting-modularity-and-other-new-features/courP_8937
